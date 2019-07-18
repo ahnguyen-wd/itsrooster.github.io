@@ -1,0 +1,572 @@
+*/
+
+/* ---------------------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #4a4a4a;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* ---------------------------------------------------- */
+/* REUSEABLE COMPONENTS */
+/* ---------------------------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+    background-color: #f4f4f4;
+}
+
+div.box {
+    margin-bottom: 0px;
+}
+
+/* ----- HEADERS ------ */
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin-top: 0;
+    color: #fff;
+    font-size: 240%;
+    margin-bottom: 20px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+h2::after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 30px auto;
+    margin-bottom: 30px;
+}
+
+/* ----- PARAGRAPHS ------ */
+
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+    text-align: center;
+}
+
+
+/* ----- ICONS ------ */
+
+.icon-big {
+    font-size: 230%;
+    color: #e67e22;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    margin-right: 10px;
+
+    /*Secrets to align text and icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+/* Generic Links */
+
+a:link,
+a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
+/* ---------------------------------------------------- */
+/* HEADER */
+/* ---------------------------------------------------- */
+
+header {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(19, 52, 83, .5),
+        rgba(114, 141, 165, .8)), url(img/banner.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.banner-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+/* Navigation Bar */
+
+.logo {
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:visited,
+.main-nav li a:link {
+    padding: 4px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav lia:active {
+    border-bottom: 2px solid #e67e22;
+}
+
+/* ---------------------------------------------------- */
+/* BUTTONS */
+/* ---------------------------------------------------- */
+
+.btn:link,
+.btn:visited,
+input[type=submit]{
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 200px;
+    font-weight: 300;
+    color: #fff;
+    -webkit-transition: background-color 0.5s, border 0.5s, color 0.5s;
+    transition: background-color 0.5s, border 0.5s, color 0.5s;
+}
+
+.btn-main:link,
+.btn-main:visited,
+input[type=submit] {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-sec:link,
+.btn-sec:visited {
+    border: 1px solid #e67e22;
+    color: #e67e22;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #b05d14;
+}
+
+.btn-main:hover,
+.btn-main:active {
+    border: 1px solid #b05d14;
+}
+
+.btn-sec:hover,
+.btn-sec:active {
+    border: 1px solid #b05d14;
+    color: #fff;
+}
+
+/* ---------------------------------------------------- */
+/* MEALS */
+/* ---------------------------------------------------- */
+
+.section-fitness-images {
+    padding: 0;
+}
+
+.fitness-showcase {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.fitness-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.fitness-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.fitness-photo img {
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    opacity: 0.7;
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+
+.fitness-photo img:hover {
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+    opacity: 1;
+}
+
+/* ---------------------------------------------------- */
+/* ABOUT US */
+/* ---------------------------------------------------- */
+
+.section-us {
+    background-color: #f4f4f4;
+}
+
+h4 {
+    font-weight: 700;
+}
+
+.section-us p {
+    padding-bottom: 25px;
+}
+
+
+
+/* ----------------------------------------------- */
+/* CITIES */
+/* ----------------------------------------------- */
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.section-cities h3{
+    margin-bottom: 15px;
+}
+
+.city-features {
+    margin-bottom: 5px;
+}
+
+/* ----------------------------------------------- */
+/* TESTIMONIALS */
+/* ----------------------------------------------- */
+
+.section-testimonials {
+    background-image: url(img/back-customers.jpg);
+    /*Covering the image over the entire section is usually what we want to do!!*/
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -3px;
+    left: -5px;
+}
+
+/* ----------------------------------------------- */
+/* PLANS */
+/* ----------------------------------------------- */
+
+.section-plans {
+    background-color: #f4f4f4;
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 7px;
+    width: 90%;
+    margin-left: 5%;
+    -webkit-box-shadow: 0 2px 2px #b9b9b9;
+    box-shadow: 0 2px 2px #b9b9b9;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:first-child {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+    border: 0;
+}
+
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #e67e22;
+}
+
+.plan-price span {
+    font-size: 50%;
+    font-weight: 300;
+}
+
+.plan-price-meal {
+    font-size: 80%;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
+/* ----------------------------------------------- */
+/* FORMS */
+/* ----------------------------------------------- */
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+/* ----------------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------------- */
+
+footer {
+    background-color: #333;
+    padding: 40px;
+    font-size: 80%
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin: 0;
+}
+
+.footer-nav li a:link, 
+.footer-nav li a:visited,
+.social-links li a:link, 
+.social-links li a:visited {
+    border: 0;
+    text-decoration: none;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover, 
+.footer-nav li a:active,
+.social-links li a:hover, 
+.social-links li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+.fa-twitter-square:hover {
+    color: #55acee;
+}
+
+.fa-google-plus-square:hover {
+    color: #dc4e41;
+}
+
+.fa-instagram:hover {
+    color: #517fa4;
+}
+
+.icon-big {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.fa-snapchat-square:hover {
+    color: #fffc00;
+}
+
+.fa-pinterest-square:hover {
+    color: #bd081c;
+}
+
+.fa-periscope:hover {
+    color: #40a4c4;
+}
+
+
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin: 20px;
+}
+

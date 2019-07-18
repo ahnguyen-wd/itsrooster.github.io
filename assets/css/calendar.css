@@ -1,0 +1,14 @@
+.daysquare {
+	border-style: solid;
+	border-width: 1px;
+	background-color: rgb(255, 255, 255);
+}
+
+.row {
+	display: flex;
+}
+
+.daysquare {
+	width: 200px;
+	padding-bottom: 50px;
+}

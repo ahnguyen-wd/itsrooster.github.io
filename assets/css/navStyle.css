@@ -1,0 +1,53 @@
+.navBar{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    left:0px;
+    /* width: 15vw; */
+    height: 100vh;
+    background-color: #2e4f74;
+}
+
+.profilePhoto{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    flex:1 1 0;
+    margin: 25px auto 10px auto;
+    display: block;
+}
+
+.profileWelcome{
+    text-align: center;
+    height: 5vh;
+    width: 15vw;
+    flex: 1;
+    background: #2e4f74;
+    padding-top: 15px;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.profileSection {
+    width: 100%;
+}
+
+.navItems{
+    background-color: #2e4f74;
+    width:15vw;
+    flex: 2 2 0;
+}
+.navItems li{
+    text-align: center;
+    font-size: 20px;
+    list-style-type: none;
+    margin: 10px;
+    color: #fff;
+}
+
+.navItems li:hover{
+    color: #F1E078;
+    opacity: 0.5;
+}

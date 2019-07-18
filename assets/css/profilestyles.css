@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item-nav {
+    display: inherit;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.flex-item-center {
+    display: inherit;
+    flex-grow: 2;
+    flex-shrink: 2;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flex-item-videos {
+    display: inherit;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.flex-item-calendar {
+    margin-left: 20px;
+    bottom: 0;
+}
+
+
+
+

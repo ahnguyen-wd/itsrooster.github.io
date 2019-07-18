@@ -1,36 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Literata|Roboto&display=swap" rel="stylesheet">
-    <title>CPSC349 - Lets Get It</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    
+    <title>Finessed Fitness | Where Your Fitness Begins</title>
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <script src="https://kit.fontawesome.com/9dc77bc09f.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/queries.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,200,300,700,900" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-            <header>
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">Myself</a></li>
-                            <li><a href="index2.html">The Why</a></li>
-                            <li><a href="index3.html">Pictures</a></li>
-                        </ul>
-                    </nav>
-            </header>
-            <div class="clear"></div>
-           <section>
-               <h1>Who's <span class="myname">Andrew Nguyen</span> - The Ordered List</h1>
-               <ol>
-                   <li>I transferred to Cal State Fullerton 2 years ago from Goldenwest College with the dream to become a developer.</li>
-                   <li>I like to hike and do physical activities.</li>
-                   <li>I enjoy playing games on my off days.</li>
-               </ol>
-               <p>You can visit my GitHub here: </p>
-               <a href="https://github.com/itsrooster">GitHub</a>
-               
-           </section>
-    </div>
+    <header>
+        <nav>
+           <div class="row">
+               <img src="assets/img/logo.png" alt="Finessed Fitness Logo" class="logo">
+               <ul class="main-nav">
+                    <li class="nav-link"><a href="https://wireframe.cc/Tyy8TH">Profile</a></li>
+                   <li class="nav-link"><a href="#about">About Us</a></li>
+                   <li class="nav-link"><a href="#features">Features</a></li>
+                   <li class="nav-link"><a href="#contact">Contact Us</a></li>
+                   <li class="nav-link"><a href="https://wireframe.cc/cf3qI7">Sign Up!</a></li>
+                   
+               </ul>
+           </div>
+        </nav>
+        <div class="banner-text-box">
+            <h1>This Is Where Your Fitness Begins</h1>
+            <a class="btn btn-main" href="#about">About Us</a>
+            <a class="btn btn-sec" href="#features">Features</a>
+        </div>
+    </header>
+
+    <section class="section-features" id="features">
+        <div class="row">
+            <h2>Features</h2>
+            <p class="long-copy">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eum provident repellendus non amet natus. Optio ratione blanditiis doloremque ad explicabo magni alias corrupti nam animi. Sint temporibus sed autem?   
+            </p>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-6 box">
+                <i class="fas fa-video icon-big"></i>
+                <h3>Workout Videos</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col span-1-of-6 box">
+                    <i class="fas fa-calendar-alt icon-big"></i>
+                <h3>Curate Your Workout Plan</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col span-1-of-6 box">
+                <i class="fas fa-chalkboard-teacher icon-big"></i>
+                <h3>Help From A Coach</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="col span-1-of-6 box">
+                    <i class="fas fa-utensils-alt icon-big"></i>
+                <h3>Recipes</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col span-1-of-6 box">
+                    <i class="fab fa-nutritionix icon-big"></i>
+                <h3>Nutrition Tips</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col span-1-of-6 box">
+                    <i class="fas fa-user-friends icon-big"></i>
+                <h3>Community</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-fitness-images">
+        <ul class="fitness-showcase clearfix">
+            <li>
+                <figure class="fitness-photo"><img src="assets/img/1.jpg" alt="Weights"></figure>
+            </li>
+            <li>
+                <figure class="fitness-photo"><img src="assets/img/2.jpg" alt="Outdoor Running"></figure>
+            </li>
+            <li>
+                <figure class="fitness-photo"><img src="assets/img/3.jpg" alt="Outdoor Pullup"></figure>
+            </li>
+            <li>
+                <figure class="fitness-photo"><img src="assets/img/4.jpg" alt="Fitness Class"></figure>
+            </li>
+        </ul>
+       <ul class="fitness-showcase clearfix">
+            <li>
+                <figure class="fitness-photo"><img src="assets/img/5.jpg" alt="Deadlift"></figure>
+            </li>
+            <li>
+                <figure class="fitness-photo"><img src="assets/img/6.jpg" alt="Kettlebell"></figure>
+            </li>
+            <li>
+                <figure class="fitness-photo"><img src="assets/img/7.jpg" alt="Holding Weights"></figure>
+            </li>
+            <li>
+                <figure class="fitness-photo"><img src="assets/img/8.jpg" alt="Barbell"></figure>
+            </li>
+        </ul>
+    </section>
+    <section class="section-us" id="about">
+        <div class="row">
+            <h2>About US</h2>
+        </div>
+        <div class="row">
+            <h4>What we offer</h4>
+
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias eveniet assumenda cum deserunt sunt enim. Perspiciatis, quisquam commodi! Quisquam, maxime dolorem! Quibusdam nam, sed iure nihil incidunt porro ullam.</p>
+    
+            <h4>Who we are</h4>
+
+            <p>  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo enim aliquid temporibus. Iure sequi aliquid, natus autem sapiente sit aut exercitationem accusantium ducimus a est facilis consectetur cupiditate. Minus, obcaecati!</p>
+    
+            <h4>Why Us</h4>
+
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores nostrum ea placeat exercitationem! Dignissimos dolor quos nesciunt voluptatibus qui incidunt. Nesciunt molestiae incidunt inventore magni debitis dolor officia repudiandae dicta. </p>
+        </div>
+    </section>
+    <section class="section-testimonials">
+        <div class="row">
+            <h2>Testimonials</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <blockquote>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac rutrum lorem, sed scelerisque sapien. Quisque eleifend efficitur quam, a faucibus dolor gravida sit amet. Nulla id turpis odio. Nam ac metus vel mi rhoncus maximus. Nam at arcu turpis. Quisque sed odio sit amet magna aliquam mattis. Etiam ut malesuada orci. Aenean ac scelerisque ex. 
+                    <cite><img src="assets/img/customer-1.jpg" alt="Testimonial 1">Alberto Duncan</cite>
+                </blockquote>
+            </div>
+            <div class="col span-1-of-3">
+                <blockquote>
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac rutrum lorem, sed scelerisque sapien. Quisque eleifend efficitur quam, a faucibus dolor gravida sit amet. Nulla id turpis odio. Nam ac metus vel mi rhoncus maximus. Nam at arcu turpis. Quisque sed odio sit amet magna aliquam mattis. Etiam ut malesuada orci. Aenean ac scelerisque ex. 
+                    <cite><img src="assets/img/customer-2.jpg" alt="Testimonial 2">Joana Silva</cite>
+                </blockquote>
+            </div>
+            <div class="col span-1-of-3">
+                <blockquote>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac rutrum lorem, sed scelerisque sapien. Quisque eleifend efficitur quam, a faucibus dolor gravida sit amet. Nulla id turpis odio. Nam ac metus vel mi rhoncus maximus. Nam at arcu turpis. Quisque sed odio sit amet magna aliquam mattis. Etiam ut malesuada orci. Aenean ac scelerisque ex. 
+                    <cite><img src="assets/img/customer-3.jpg" alt="Testimonial 3">Milton Chapman)</cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+    <section class="section-form" id="contact">
+        <div class="row">
+            <h2>We're happy to hear from you</h2>
+        </div>
+        <div class="row">
+            <form method="post" action="#" class="contact-form">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    </div>
+                </div>
+                 <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+                 <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="find-us">How did you find us?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <select name="find-us" id="find-us">
+                            <option value="friends">Friends</option>
+                            <option value="search-engine" selected>Seaerch Engine</option>
+                            <option value="radio">Radio</option>
+                            <option value="ad">Advertisement</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                 <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Newsletter</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="checkbox" name="news" id="news" checked> Yes, please
+                    </div>
+                </div>
+                 <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Reach out to us!</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea name="message" id="message" placeholder="Your message here..."></textarea>
+                    </div>
+                </div>
+                 <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="">&nbsp;</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="submit" value="Send">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">iOS App</a></li>
+                    <li><a href="#">Android App</a></li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
