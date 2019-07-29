@@ -158,7 +158,11 @@ content {
                     padding: 15px 30px 15px 12px;
                 }
             }
-          }
+        }
+    }
+    .col-md-4,
+    .col-sm-12 {
+        margin-bottom: 10px;
     }
     content {
         max-width: 90%;
