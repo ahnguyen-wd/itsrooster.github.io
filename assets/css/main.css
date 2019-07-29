@@ -162,3 +162,7 @@ content {
 
 .profile {
   padding: 30px 30px 0; }
+
+.card,
+.table {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
