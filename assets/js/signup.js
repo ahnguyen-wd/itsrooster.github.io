@@ -39,7 +39,7 @@ $("#createAcc").click(function(){
             console.log(data);
             POSTacc(data);
         });
-		//setTimeout(function(){ window.location.replace("dashboard.html"); }, 1000);
+		setTimeout(function(){ window.location.replace("dashboard.html"); }, 1000);
     } 
     else {
 		document.getElementById("signError").innerHTML = "Please make sure all info are entered.";
