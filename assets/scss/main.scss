@@ -18,6 +18,10 @@ a {
     color: $beige;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 #sideMenu {
     background-color: $gunmetal;
     max-width: 20%;
@@ -39,9 +43,12 @@ a {
     }
 
     .nav-title {
-        padding: 25px;
         font-size: 1.8rem;
         font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .nav-header {
+        padding: 25px;
     }
 
     nav {
@@ -51,7 +58,8 @@ a {
             padding: 15px 30px;
             transition: all 0.3s ease-in-out;
 
-            .far {
+            .far,
+            .fad {
                 color: $beige;
                 font-size: 1.4rem;
                 margin-right: 0.8rem;
@@ -60,6 +68,7 @@ a {
                 position: relative;
                 top: 3px;
             }
+            
 
             &:hover {
                 background: $bluedark;
@@ -172,9 +181,60 @@ content {
 
   .profile {
       padding: 30px 30px 0;
+      
+      #prof-img {
+          height: 250px;
+          width: 250px;
+          object-fit: cover;
+      }
+
+      .how-to-heading {
+          font-size: 1.3rem;
+      }
+
+      
+
+      .dayOn {
+        font-size: 1.3rem;
+
+        
+        .fa-chevron-left {
+            padding-right: 5px;
+            color: $lightred;
+          }
+    
+          .fa-chevron-right {
+            padding-left: 5px;
+            color: $lightgreen;
+          }
+      }
+
+      
   }
 
   .card, 
   .table{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .hidden {
+      display: none !important;
+  }
+
+  #settings {
+    label {
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-weight: 700;
+        padding-bottom: 5px;
+    }
+  }
+
+  #workout-table {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .embed-responsive {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
   }

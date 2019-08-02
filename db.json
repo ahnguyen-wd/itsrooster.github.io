@@ -1,0 +1,3250 @@
+{
+  "users": [
+    {
+      "id": "itsmiguel",
+      "password": "password1",
+      "firstname": "Miguel",
+      "lastname": "Hernandez",
+      "email": "nevergungiveyouup@ricka.com",
+      "subscriptionplan": "Annual",
+      "workoutplan": 2,
+      "age": 29,
+      "weightLB": 200,
+      "dob": "10-02-1991",
+      "country": "United States",
+      "memberSince": "07/30/2019",
+      "equipment": "Gym",
+      "level": "Beginner",
+      "userimage": "https://tinyfac.es/data/avatars/475605E3-69C5-4D2B-8727-61B7BB8C4699-500w.jpeg",
+      "dayOn": 1
+    },
+    {
+      "id": "erika4lyfe",
+      "password": "password2",
+      "firstname": "Erika",
+      "lastname": "Park",
+      "email": "erikamm@mail.com",
+      "subscriptionplan": "Annual",
+      "workoutplan": 3,
+      "age": 22,
+      "WeightLB": 120,
+      "dob": "08-21-1996",
+      "country": "Korea",
+      "memberSince": "07/30/2019",
+      "equipment": "Gym",
+      "level": "Beginner",
+      "userimage": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?h=350&auto=compress&cs=tinysrgb",
+      "dayOn": 1
+    },
+    {
+      "id": "default",
+      "password": "default",
+      "firstname": "",
+      "lastname": "",
+      "email": "",
+      "subscriptionplan": "Free",
+      "workoutplan": 3,
+      "age": 22,
+      "WeightLB": 120,
+      "dob": "",
+      "country": "",
+      "memberSince": "8/1/2019",
+      "equipment": "Home",
+      "level": "Beginner",
+      "userimage": "",
+      "dayOn": 1
+    },
+    {
+      "id": "test",
+      "password": "test",
+      "firstname": "test",
+      "lastname": "test",
+      "email": "test",
+      "subscriptionplan": "Free",
+      "workoutplan": 3,
+      "age": "22",
+      "WeightLB": "202",
+      "dob": "10-02-1991",
+      "country": "test",
+      "memberSince": "8/1/2019",
+      "equipment": "Home",
+      "level": "Beginner",
+      "userimage": "https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?h=350&auto=compress&cs=tinysrgb",
+      "dayOn": 1
+    },
+    {
+      "id": "itsandrew",
+      "password": "the3lit3s.",
+      "firstname": "Andrew",
+      "lastname": "Nguyen",
+      "email": "ahnguyen714@gmail.com",
+      "subscriptionplan": "Free",
+      "workoutplan": 3,
+      "age": "22",
+      "WeightLB": "202",
+      "dob": "10-02-1991",
+      "country": "test",
+      "memberSince": "8/1/2019",
+      "equipment": "Home",
+      "level": "Beginner",
+      "userimage": "https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?h=350&auto=compress&cs=tinysrgb",
+      "dayOn": 1
+    },
+    {
+      "id": "a",
+      "password": "a",
+      "firstname": "a",
+      "lastname": "a",
+      "email": "a",
+      "subscriptionplan": "Free",
+      "workoutplan": 3,
+      "age": "22",
+      "WeightLB": "202",
+      "dob": "100291",
+      "country": "a",
+      "memberSince": "8/1/2019",
+      "equipment": "Home",
+      "level": "Beginner",
+      "userimage": "https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?h=350&auto=compress&cs=tinysrgb",
+      "dayOn": 1
+    }
+  ],
+  "workoutplans": [
+    {
+      "id": 1,
+      "name": "Gym Workout - Experienced",
+      "day": [
+        {
+          "id": 1,
+          "focus": "Lower Body Strength",
+          "recommendedV": [
+            {
+              "vname": "Warm Up",
+              "vurl": "https://www.youtube.com/embed/1e528F0pYPg"
+            },
+            {
+              "vname": "Deadlift",
+              "vurl": "https://www.youtube.com/embed/ytGaGIn3SjE"
+            },
+            {
+              "vname": "Barbell Squats",
+              "vurl": "https://www.youtube.com/embed/1oed-UmAxFs"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Deadlift",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 3,
+              "name": "Barbell Squats",
+              "sets": "4",
+              "reps": "10"
+            },
+            {
+              "num": 4,
+              "name": "Box Jumps",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 5,
+              "name": "Treadmill Cooldown",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "focus": "Conditioning",
+          "recommendedV": [
+            {
+              "vname": "Warm Up",
+              "vurl": "https://www.youtube.com/embed/4jCDjnzI6W0"
+            },
+            {
+              "vname": "HIIT Treadmill",
+              "vurl": "https://www.youtube.com/embed/n4I_fmegTRk"
+            },
+            {
+              "vname": "Agility Ladder",
+              "vurl": "https://www.youtube.com/embed/kRDijztJGOs"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "HIIT Treadmill (25s sprint - 35s jog)",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Agility Ladder",
+              "sets": "4",
+              "reps": "10"
+            },
+            {
+              "num": 4,
+              "name": "Incline Walk 10 min",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 5,
+              "name": "Treadmill Cooldown 3 min",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "focus": "Upper Body Strength",
+          "recommendedV": [
+            {
+              "vname": "Warm Up - Upper Body",
+              "vurl": "https://www.youtube.com/embed/VULt--bcWd0"
+            },
+            {
+              "vname": "Barbell Bench Press",
+              "vurl": "https://www.youtube.com/embed/rT7DgCr-3pg"
+            },
+            {
+              "vname": "Pull Ups",
+              "vurl": "https://www.youtube.com/embed/yLXn2OtQmxo"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Push Ups",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Barbell Bench Press",
+              "sets": "4",
+              "reps": "10"
+            },
+            {
+              "num": 4,
+              "name": "Butterfly",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 5,
+              "name": "Pull Ups",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "focus": "Conditioning",
+          "recommendedV": [
+            {
+              "vname": "Warm Up",
+              "vurl": "https://www.youtube.com/embed/KakbbW7Fz9Y"
+            },
+            {
+              "vname": "HIIT Workout",
+              "vurl": "https://www.youtube.com/embed/KVG-geWTsA4"
+            },
+            {
+              "vname": "HIIT Cardio Benefits",
+              "vurl": "https://www.youtube.com/embed/MbsLDvRioxQ"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "HIIT Treadmill (25s sprint - 35s jog)",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Agility Ladder",
+              "sets": "4",
+              "reps": "10"
+            },
+            {
+              "num": 4,
+              "name": "Incline Walk 10 min",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 5,
+              "name": "Treadmill Cooldown 3 min",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "focus": "Abs",
+          "recommendedV": [
+            {
+              "vname": "Modified V",
+              "vurl": "https://www.youtube.com/embed/riAutegDqdI"
+            },
+            {
+              "vname": "Russian Twist",
+              "vurl": "https://www.youtube.com/embed/wkD8rjkodUI"
+            },
+            {
+              "vname": "Mountain Climber",
+              "vurl": "https://www.youtube.com/embed/nmwgirgXLYM"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Crunches",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Russian Twist",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Tuck and Crunch",
+              "sets": "4",
+              "reps": "10"
+            },
+            {
+              "num": 4,
+              "name": "Modified V",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 5,
+              "name": "Mountain Climbers",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "focus": "Rest/Rehab/Stretch",
+          "recommendedV": [
+            {
+              "vname": "Day Off Streching",
+              "vurl": "https://www.youtube.com/embed/03JKamVnbfs"
+            },
+            {
+              "vname": "Flexibility Routine",
+              "vurl": "https://www.youtube.com/embed/L_xrDAtykMI"
+            },
+            {
+              "vname": "Foam Roller",
+              "vurl": "https://www.youtube.com/embed/Dj4dyWDNgb0"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "focus": "Learning Day",
+          "recommendedV": [
+            {
+              "vname": "Your Body During Workout",
+              "vurl": "https://www.youtube.com/embed/wWGulLAa0O0"
+            },
+            {
+              "vname": "How To Create A Caloric Deficit",
+              "vurl": "https://www.youtube.com/embed/3foxTr9Qua0"
+            },
+            {
+              "vname": "Balancing Life and Fitness",
+              "vurl": "https://www.youtube.com/embed/cap_OhkXric"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "focus": "Full-body",
+          "recommendedV": [
+            {
+              "vname": "Bench Press",
+              "vurl": "https://www.youtube.com/embed/vcBig73ojpE"
+            },
+            {
+              "vname": "Seated Barbell Strict Press",
+              "vurl": "https://www.youtube.com/embed/ECWxumBMLVQ"
+            },
+            {
+              "vname": "Crunches",
+              "vurl": "https://www.youtube.com/embed/Xyd_fa5zoEU"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Crunches",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Above Knee Block Clean High Pull",
+              "sets": "3",
+              "reps": "2"
+            },
+            {
+              "num": 3,
+              "name": "Above Knee Block Clean",
+              "sets": "3",
+              "reps": "5"
+            },
+            {
+              "num": 4,
+              "name": "Bench Press",
+              "sets": "4",
+              "reps": "4"
+            },
+            {
+              "num": 5,
+              "name": "Seated Barbell Strict Press",
+              "sets": "4",
+              "reps": "6"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "focus": "Rest/Rehab/Stretch",
+          "recommendedV": [
+            {
+              "vname": "Day Off Streching",
+              "vurl": "https://www.youtube.com/embed/03JKamVnbfs"
+            },
+            {
+              "vname": "Flexibility Routine",
+              "vurl": "https://www.youtube.com/embed/L_xrDAtykMI"
+            },
+            {
+              "vname": "Foam Roller",
+              "vurl": "https://www.youtube.com/embed/Dj4dyWDNgb0"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "focus": "Learning Day",
+          "recommendedV": [
+            {
+              "vname": "Your Body During Workout",
+              "vurl": "https://www.youtube.com/embed/wWGulLAa0O0"
+            },
+            {
+              "vname": "How To Create A Caloric Deficit",
+              "vurl": "https://www.youtube.com/embed/3foxTr9Qua0"
+            },
+            {
+              "vname": "Balancing Life and Fitness",
+              "vurl": "https://www.youtube.com/embed/cap_OhkXric"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "focus": "Full-body",
+          "recommendedV": [
+            {
+              "vname": "Incline Dumbbell Chest Press",
+              "vurl": "https://www.youtube.com/embed/hChjZQhX1Ls"
+            },
+            {
+              "vname": "Chin Up",
+              "vurl": "https://www.youtube.com/embed/qVztO-F-IwI"
+            },
+            {
+              "vname": "Rope Face Pull",
+              "vurl": "https://www.youtube.com/embed/eIq5CB9JfKE"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Chin Up",
+              "sets": "3",
+              "reps": "AMAP"
+            },
+            {
+              "num": 3,
+              "name": "Incline Dumbbell Chest Press(2 seconds pause at bottom)",
+              "sets": "4",
+              "reps": "6"
+            },
+            {
+              "num": 4,
+              "name": "Chest Supported T-Bar Row or Dumbbell Row(2 secs hold at top)",
+              "sets": "4",
+              "reps": "6"
+            },
+            {
+              "num": 5,
+              "name": "Rope Face Pull(downward angle)",
+              "sets": "3",
+              "reps": "10"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "focus": "Legs and Shoulders ",
+          "recommendedV": [
+            {
+              "vname": "Back Squat",
+              "vurl": "https://www.youtube.com/embed/RpBf5ZRdvWE"
+            },
+            {
+              "vname": "Overhead Press",
+              "vurl": "https://www.youtube.com/embed/QAQ64hK4Xxs"
+            },
+            {
+              "vname": "Split Squat",
+              "vurl": "https://www.youtube.com/embed/JyMiO1iQzEY"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Jerk",
+              "sets": "6",
+              "reps": "2"
+            },
+            {
+              "num": 3,
+              "name": "Back Squat",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 4,
+              "name": "Overhead Press",
+              "sets": "4",
+              "reps": "5"
+            },
+            {
+              "num": 5,
+              "name": "Split Squat",
+              "sets": "3",
+              "reps": "12"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "focus": "Chest",
+          "recommendedV": [
+            {
+              "vname": "Rings Dip",
+              "vurl": "https://www.youtube.com/embed/Vt0lO4jpIDo"
+            },
+            {
+              "vname": "Rings Push ups",
+              "vurl": "https://www.youtube.com/embed/FRiiZRhapeU"
+            },
+            {
+              "vname": "Rings Dip hold",
+              "vurl": "https://www.youtube.com/embed/jPPM1ri6MqQ"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Rings Dip hold",
+              "sets": "3",
+              "reps": "1 min"
+            },
+            {
+              "num": 3,
+              "name": "Rings Push ups",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 4,
+              "name": "Rings Incline Push ups",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 5,
+              "name": "Rings Dips",
+              "sets": "3",
+              "reps": "AMAP"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "focus": "Back",
+          "recommendedV": [
+            {
+              "vname": "Rings Chin ups",
+              "vurl": "https://www.youtube.com/embed/ytuFFG5zdjw"
+            },
+            {
+              "vname": "Rings Back Fly",
+              "vurl": "https://www.youtube.com/embed/iVDKfv5Tlms"
+            },
+            {
+              "vname": "Rings Inverted Row",
+              "vurl": "https://www.youtube.com/embed/PGcTxvw6-lo"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Rings Inverted Row",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 3,
+              "name": "Rings pull ups",
+              "sets": "3",
+              "reps": "AMAP"
+            },
+            {
+              "num": 4,
+              "name": "Rings Chin ups",
+              "sets": "3",
+              "reps": "AMAP"
+            },
+            {
+              "num": 5,
+              "name": "Rings Back Fly",
+              "sets": "3",
+              "reps": "AMAP"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "focus": "Core",
+          "recommendedV": [
+            {
+              "vname": "Ring Push up hold",
+              "vurl": "https://www.youtube.com/embed/m8GZlHJulc8"
+            },
+            {
+              "vname": "Rings Ab Rollout",
+              "vurl": "https://www.youtube.com/embed/KkXY9jp59ec"
+            },
+            {
+              "vname": "Ring Plank",
+              "vurl": "https://www.youtube.com/embed/p3zS2AMqGlg"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Rings Ab Rollout",
+              "sets": "3",
+              "reps": "10"
+            },
+            {
+              "num": 2,
+              "name": "Rings Superman Thrust",
+              "sets": "3",
+              "reps": "6/side"
+            },
+            {
+              "num": 3,
+              "name": "Rings Single Arm Plank",
+              "sets": "3",
+              "reps": "30secs"
+            },
+            {
+              "num": 4,
+              "name": "Ring Plank",
+              "sets": "3",
+              "reps": "30secs"
+            },
+            {
+              "num": 5,
+              "name": "Ring Push up hold",
+              "sets": "3",
+              "reps": "45secs"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "focus": "Rest/Rehab/Stretch",
+          "recommendedV": [
+            {
+              "vname": "Day Off Streching",
+              "vurl": "https://www.youtube.com/embed/03JKamVnbfs"
+            },
+            {
+              "vname": "Flexibility Routine",
+              "vurl": "https://www.youtube.com/embed/L_xrDAtykMI"
+            },
+            {
+              "vname": "Foam Roller",
+              "vurl": "https://www.youtube.com/embed/Dj4dyWDNgb0"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "focus": "Learning Day",
+          "recommendedV": [
+            {
+              "vname": "Your Body During Workout",
+              "vurl": "https://www.youtube.com/embed/wWGulLAa0O0"
+            },
+            {
+              "vname": "How To Create A Caloric Deficit",
+              "vurl": "https://www.youtube.com/embed/3foxTr9Qua0"
+            },
+            {
+              "vname": "Balancing Life and Fitness",
+              "vurl": "https://www.youtube.com/embed/cap_OhkXric"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Gym Workout - Beginner",
+      "day": [
+        {
+          "id": 1,
+          "focus": "Lower Body Strength building",
+          "recommendedV": [
+            {
+              "vname": "Feet Elevated Side Plank",
+              "vurl": "https://www.youtube.com/embed/5fy0hxnYlQs"
+            },
+            {
+              "vname": "Hex Bar Deadlift on Riser",
+              "vurl": "https://www.youtube.com/embed/7LgVq_JLbKc"
+            },
+            {
+              "vname": "Below Knee Block Snatch",
+              "vurl": "https://www.youtube.com/embed/dwuIYYghX9M"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Below Knee Block Snatch",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 3,
+              "name": "Back Squat",
+              "sets": "5",
+              "reps": "4"
+            },
+            {
+              "num": 4,
+              "name": "Hex Bar Deadlift on Riser",
+              "sets": "4",
+              "reps": "6"
+            },
+            {
+              "num": 5,
+              "name": "Feet Elevated Side Plank",
+              "sets": "3",
+              "reps": "15 sec/side"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "focus": "Full-body",
+          "recommendedV": [
+            {
+              "vname": "Block Snatch Pull",
+              "vurl": "https://www.youtube.com/embed/t9zENA1Ejkc"
+            },
+            {
+              "vname": "BTN Snatch Press",
+              "vurl": "https://www.youtube.com/embed/7KbfqM90BVk"
+            },
+            {
+              "vname": "Below Knee RDL",
+              "vurl": "https://www.youtube.com/embed/ZDpjFYoDG6k"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Block Snatch Pull",
+              "sets": "4",
+              "reps": "3(80%)"
+            },
+            {
+              "num": 3,
+              "name": "Below Knee RDL",
+              "sets": "4",
+              "reps": "8"
+            },
+            {
+              "num": 4,
+              "name": "Single Dubbell Bulgarian Split Squat",
+              "sets": "4",
+              "reps": "5/leg"
+            },
+            {
+              "num": 5,
+              "name": "BTN Snatch Press",
+              "sets": "4",
+              "reps": "5"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "focus": "Full-body",
+          "recommendedV": [
+            {
+              "vname": "Front Squat",
+              "vurl": "https://www.youtube.com/embed/v-mQm_droHg"
+            },
+            {
+              "vname": "Pause Jerk",
+              "vurl": "https://www.youtube.com/embed/wIv9MonbjNI"
+            },
+            {
+              "vname": "Block Clean",
+              "vurl": "https://www.youtube.com/embed/59CbB8J-5oU"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Standing Single Arm Dumbbel Shoulder Press",
+              "sets": "4",
+              "reps": "6/arm"
+            },
+            {
+              "num": 3,
+              "name": "Front Squat",
+              "sets": "4",
+              "reps": "6"
+            },
+            {
+              "num": 4,
+              "name": "Block Clean",
+              "sets": "3",
+              "reps": "2"
+            },
+            {
+              "num": 5,
+              "name": "Pause Jerk",
+              "sets": "4",
+              "reps": "2"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "focus": "Full Body",
+          "recommendedV": [
+            {
+              "vname": "Front Squat",
+              "vurl": "https://www.youtube.com/embed/v-mQm_droHg"
+            },
+            {
+              "vname": "Block Clean Pull",
+              "vurl": "https://www.youtube.com/embed/ZCCNtSZxuhU"
+            },
+            {
+              "vname": "Block Power Clean",
+              "vurl": "https://www.youtube.com/embed/91XPkThIeeA"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Block Power Clean",
+              "sets": "3",
+              "reps": "2"
+            },
+            {
+              "num": 3,
+              "name": "Block Clean Pull",
+              "sets": "3",
+              "reps": "3"
+            },
+            {
+              "num": 4,
+              "name": "Pull up",
+              "sets": "4",
+              "reps": "AMAP"
+            },
+            {
+              "num": 5,
+              "name": "Front Squat",
+              "sets": "3",
+              "reps": "8"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "focus": "Abs",
+          "recommendedV": [
+            {
+              "vname": "Modified V",
+              "vurl": "https://www.youtube.com/embed/riAutegDqdI"
+            },
+            {
+              "vname": "Russian Twist",
+              "vurl": "https://www.youtube.com/embed/wkD8rjkodUI"
+            },
+            {
+              "vname": "Mountain Climber",
+              "vurl": "https://www.youtube.com/embed/nmwgirgXLYM"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Crunches",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Russian Twist",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Tuck and Crunch",
+              "sets": "4",
+              "reps": "10"
+            },
+            {
+              "num": 4,
+              "name": "Modified V",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 5,
+              "name": "Mountain Climbers",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "focus": "Rest/Rehab/Stretch",
+          "recommendedV": [
+            {
+              "vname": "Day Off Streching",
+              "vurl": "https://www.youtube.com/embed/03JKamVnbfs"
+            },
+            {
+              "vname": "Flexibility Routine",
+              "vurl": "https://www.youtube.com/embed/L_xrDAtykMI"
+            },
+            {
+              "vname": "Foam Roller",
+              "vurl": "https://www.youtube.com/embed/Dj4dyWDNgb0"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "focus": "Learning Day",
+          "recommendedV": [
+            {
+              "vname": "Your Body During Workout",
+              "vurl": "https://www.youtube.com/embed/wWGulLAa0O0"
+            },
+            {
+              "vname": "How To Create A Caloric Deficit",
+              "vurl": "https://www.youtube.com/embed/3foxTr9Qua0"
+            },
+            {
+              "vname": "Balancing Life and Fitness",
+              "vurl": "https://www.youtube.com/embed/cap_OhkXric"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "focus": "Full-body",
+          "recommendedV": [
+            {
+              "vname": "Bench Press",
+              "vurl": "https://www.youtube.com/embed/vcBig73ojpE"
+            },
+            {
+              "vname": "Seated Barbell Strict Press",
+              "vurl": "https://www.youtube.com/embed/ECWxumBMLVQ"
+            },
+            {
+              "vname": "Crunches",
+              "vurl": "https://www.youtube.com/embed/Xyd_fa5zoEU"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Crunches",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Above Knee Block Clean High Pull",
+              "sets": "3",
+              "reps": "2"
+            },
+            {
+              "num": 3,
+              "name": "Above Knee Block Clean",
+              "sets": "3",
+              "reps": "5"
+            },
+            {
+              "num": 4,
+              "name": "Bench Press",
+              "sets": "4",
+              "reps": "4"
+            },
+            {
+              "num": 5,
+              "name": "Seated Barbell Strict Press",
+              "sets": "4",
+              "reps": "6"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "focus": "Rest/Rehab/Stretch",
+          "recommendedV": [
+            {
+              "vname": "Day Off Streching",
+              "vurl": "https://www.youtube.com/embed/03JKamVnbfs"
+            },
+            {
+              "vname": "Flexibility Routine",
+              "vurl": "https://www.youtube.com/embed/L_xrDAtykMI"
+            },
+            {
+              "vname": "Foam Roller",
+              "vurl": "https://www.youtube.com/embed/Dj4dyWDNgb0"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "focus": "Learning Day",
+          "recommendedV": [
+            {
+              "vname": "Your Body During Workout",
+              "vurl": "https://www.youtube.com/embed/wWGulLAa0O0"
+            },
+            {
+              "vname": "How To Create A Caloric Deficit",
+              "vurl": "https://www.youtube.com/embed/3foxTr9Qua0"
+            },
+            {
+              "vname": "Balancing Life and Fitness",
+              "vurl": "https://www.youtube.com/embed/cap_OhkXric"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "focus": "Full-body",
+          "recommendedV": [
+            {
+              "vname": "Incline Dumbbell Chest Press",
+              "vurl": "https://www.youtube.com/embed/hChjZQhX1Ls"
+            },
+            {
+              "vname": "Chin Up",
+              "vurl": "https://www.youtube.com/embed/qVztO-F-IwI"
+            },
+            {
+              "vname": "Rope Face Pull",
+              "vurl": "https://www.youtube.com/embed/eIq5CB9JfKE"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Chin Up",
+              "sets": "3",
+              "reps": "AMAP"
+            },
+            {
+              "num": 3,
+              "name": "Incline Dumbbell Chest Press(2 seconds pause at bottom)",
+              "sets": "4",
+              "reps": "6"
+            },
+            {
+              "num": 4,
+              "name": "Chest Supported T-Bar Row or Dumbbell Row(2 secs hold at top)",
+              "sets": "4",
+              "reps": "6"
+            },
+            {
+              "num": 5,
+              "name": "Rope Face Pull(downward angle)",
+              "sets": "3",
+              "reps": "10"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "focus": "Legs and Shoulders ",
+          "recommendedV": [
+            {
+              "vname": "Back Squat",
+              "vurl": "https://www.youtube.com/embed/RpBf5ZRdvWE"
+            },
+            {
+              "vname": "Overhead Press",
+              "vurl": "https://www.youtube.com/embed/QAQ64hK4Xxs"
+            },
+            {
+              "vname": "Split Squat",
+              "vurl": "https://www.youtube.com/embed/JyMiO1iQzEY"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Jerk",
+              "sets": "6",
+              "reps": "2"
+            },
+            {
+              "num": 3,
+              "name": "Back Squat",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 4,
+              "name": "Overhead Press",
+              "sets": "4",
+              "reps": "5"
+            },
+            {
+              "num": 5,
+              "name": "Split Squat",
+              "sets": "3",
+              "reps": "12"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "focus": "Chest",
+          "recommendedV": [
+            {
+              "vname": "Rings Dip",
+              "vurl": "https://www.youtube.com/embed/Vt0lO4jpIDo"
+            },
+            {
+              "vname": "Rings Push ups",
+              "vurl": "https://www.youtube.com/embed/FRiiZRhapeU"
+            },
+            {
+              "vname": "Rings Dip hold",
+              "vurl": "https://www.youtube.com/embed/jPPM1ri6MqQ"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Rings Dip hold",
+              "sets": "3",
+              "reps": "1 min"
+            },
+            {
+              "num": 3,
+              "name": "Rings Push ups",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 4,
+              "name": "Rings Incline Push ups",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 5,
+              "name": "Rings Dips",
+              "sets": "3",
+              "reps": "AMAP"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "focus": "Back",
+          "recommendedV": [
+            {
+              "vname": "Rings Chin ups",
+              "vurl": "https://www.youtube.com/embed/ytuFFG5zdjw"
+            },
+            {
+              "vname": "Rings Back Fly",
+              "vurl": "https://www.youtube.com/embed/iVDKfv5Tlms"
+            },
+            {
+              "vname": "Rings Inverted Row",
+              "vurl": "https://www.youtube.com/embed/PGcTxvw6-lo"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Rings Inverted Row",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 3,
+              "name": "Rings pull ups",
+              "sets": "3",
+              "reps": "AMAP"
+            },
+            {
+              "num": 4,
+              "name": "Rings Chin ups",
+              "sets": "3",
+              "reps": "AMAP"
+            },
+            {
+              "num": 5,
+              "name": "Rings Back Fly",
+              "sets": "3",
+              "reps": "AMAP"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "focus": "Core",
+          "recommendedV": [
+            {
+              "vname": "Ring Push up hold",
+              "vurl": "https://www.youtube.com/embed/m8GZlHJulc8"
+            },
+            {
+              "vname": "Rings Ab Rollout",
+              "vurl": "https://www.youtube.com/embed/KkXY9jp59ec"
+            },
+            {
+              "vname": "Ring Plank",
+              "vurl": "https://www.youtube.com/embed/p3zS2AMqGlg"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Rings Ab Rollout",
+              "sets": "3",
+              "reps": "10"
+            },
+            {
+              "num": 2,
+              "name": "Rings Superman Thrust",
+              "sets": "3",
+              "reps": "6/side"
+            },
+            {
+              "num": 3,
+              "name": "Rings Single Arm Plank",
+              "sets": "3",
+              "reps": "30secs"
+            },
+            {
+              "num": 4,
+              "name": "Ring Plank",
+              "sets": "3",
+              "reps": "30secs"
+            },
+            {
+              "num": 5,
+              "name": "Ring Push up hold",
+              "sets": "3",
+              "reps": "45secs"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "focus": "Rest/Rehab/Stretch",
+          "recommendedV": [
+            {
+              "vname": "Day Off Streching",
+              "vurl": "https://www.youtube.com/embed/03JKamVnbfs"
+            },
+            {
+              "vname": "Flexibility Routine",
+              "vurl": "https://www.youtube.com/embed/L_xrDAtykMI"
+            },
+            {
+              "vname": "Foam Roller",
+              "vurl": "https://www.youtube.com/embed/Dj4dyWDNgb0"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "focus": "Learning Day",
+          "recommendedV": [
+            {
+              "vname": "Your Body During Workout",
+              "vurl": "https://www.youtube.com/embed/wWGulLAa0O0"
+            },
+            {
+              "vname": "How To Create A Caloric Deficit",
+              "vurl": "https://www.youtube.com/embed/3foxTr9Qua0"
+            },
+            {
+              "vname": "Balancing Life and Fitness",
+              "vurl": "https://www.youtube.com/embed/cap_OhkXric"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Home Workout - Beginner",
+      "day": [
+        {
+          "id": 1,
+          "focus": "Power",
+          "recommendedV": [
+            {
+              "vname": "Seated Box Jump",
+              "vurl": "https://www.youtube.com/embed/BkvtlrrcFSc"
+            },
+            {
+              "vname": "Depth Jump",
+              "vurl": "https://www.youtube.com/embed/egnoXByP6ck"
+            },
+            {
+              "vname": "Squat Jump",
+              "vurl": "https://www.youtube.com/embed/lLHDHTvTmKI"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Seated Box Jump",
+              "sets": "3",
+              "reps": "4"
+            },
+            {
+              "num": 3,
+              "name": "Horizontal Broad Jump & Vertical Jump",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 4,
+              "name": "Squat Jump",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 5,
+              "name": "Depth Jump",
+              "sets": "3",
+              "reps": "12"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "focus": "Core",
+          "recommendedV": [
+            {
+              "vname": "Leg Raise",
+              "vurl": "https://www.youtube.com/embed/JB2oyawG9KI"
+            },
+            {
+              "vname": "Deadbug",
+              "vurl": "https://www.youtube.com/embed/4XLEnwUr1d8"
+            },
+            {
+              "vname": "Box Step Up",
+              "vurl": "https://www.youtube.com/embed/2Aql4qSJ9YY"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Box Step Up",
+              "sets": "3",
+              "reps": "16/leg"
+            },
+            {
+              "num": 3,
+              "name": "Weighted Plank",
+              "sets": "3",
+              "reps": "30secs"
+            },
+            {
+              "num": 4,
+              "name": "Leg Raise",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 5,
+              "name": "Deadbug",
+              "sets": "3",
+              "reps": "12"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "focus": "Legs",
+          "recommendedV": [
+            {
+              "vname": "Bridge",
+              "vurl": "https://www.youtube.com/embed/WhYis4MMoak"
+            },
+            {
+              "vname": "Lunge with Trunk Rotation",
+              "vurl": "https://www.youtube.com/embed/IpwF9Sb-3cw"
+            },
+            {
+              "vname": "Glute Thrust",
+              "vurl": "https://www.youtube.com/embed/JB2oyawG9KI"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Glute Thrust",
+              "sets": "3",
+              "reps": "16"
+            },
+            {
+              "num": 3,
+              "name": "Bridge",
+              "sets": "3",
+              "reps": "16"
+            },
+            {
+              "num": 4,
+              "name": "Lunge with Trunk Rotation",
+              "sets": "3",
+              "reps": "12/leg"
+            },
+            {
+              "num": 5,
+              "name": "Romanian Deadlift",
+              "sets": "4",
+              "reps": "12"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "focus": "Chest",
+          "recommendedV": [
+            {
+              "vname": "Warm Up",
+              "vurl": "https://www.youtube.com/embed/KakbbW7Fz9Y"
+            },
+            {
+              "vname": "Dips",
+              "vurl": "https://www.youtube.com/embed/sM6XUdt1rm4"
+            },
+            {
+              "vname": "Dimond Push up",
+              "vurl": "https://www.youtube.com/embed/J0DnG1_S92I"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Push up",
+              "sets": "3",
+              "reps": "AMAP"
+            },
+            {
+              "num": 3,
+              "name": "Dimond Push up",
+              "sets": "3",
+              "reps": "AMAP"
+            },
+            {
+              "num": 4,
+              "name": "Wide Grip Push up",
+              "sets": "3",
+              "reps": "AMAP"
+            },
+            {
+              "num": 5,
+              "name": "Dips",
+              "sets": "3",
+              "reps": "AMAP"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "focus": "Back",
+          "recommendedV": [
+            {
+              "vname": "Dolphin Kick",
+              "vurl": "https://www.youtube.com/embed/p6SwK57L9hU"
+            },
+            {
+              "vname": "Good Morning",
+              "vurl": "https://www.youtube.com/embed/YA-h3n9L4YU"
+            },
+            {
+              "vname": "Reverse Snow Angles",
+              "vurl": "https://www.youtube.com/embed/ZYIHJ3m6UCo"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Superman",
+              "sets": "3",
+              "reps": "5"
+            },
+            {
+              "num": 2,
+              "name": "Dolphin Kick",
+              "sets": "3",
+              "reps": "5"
+            },
+            {
+              "num": 3,
+              "name": "Reverse Snow Angles",
+              "sets": "3",
+              "reps": "5"
+            },
+            {
+              "num": 4,
+              "name": "Hip Hinge(Good Mornings)",
+              "sets": "3",
+              "reps": "16"
+            },
+            {
+              "num": 5,
+              "name": "Pull up",
+              "sets": "3",
+              "reps": "AMAP"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "focus": "Rest/Rehab/Stretch",
+          "recommendedV": [
+            {
+              "vname": "Day Off Streching",
+              "vurl": "https://www.youtube.com/embed/03JKamVnbfs"
+            },
+            {
+              "vname": "Flexibility Routine",
+              "vurl": "https://www.youtube.com/embed/L_xrDAtykMI"
+            },
+            {
+              "vname": "Foam Roller",
+              "vurl": "https://www.youtube.com/embed/Dj4dyWDNgb0"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "focus": "Learning Day",
+          "recommendedV": [
+            {
+              "vname": "Your Body During Workout",
+              "vurl": "https://www.youtube.com/embed/wWGulLAa0O0"
+            },
+            {
+              "vname": "How To Create A Caloric Deficit",
+              "vurl": "https://www.youtube.com/embed/3foxTr9Qua0"
+            },
+            {
+              "vname": "Balancing Life and Fitness",
+              "vurl": "https://www.youtube.com/embed/cap_OhkXric"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "focus": "Full-body",
+          "recommendedV": [
+            {
+              "vname": "Bench Press",
+              "vurl": "https://www.youtube.com/embed/vcBig73ojpE"
+            },
+            {
+              "vname": "Seated Barbell Strict Press",
+              "vurl": "https://www.youtube.com/embed/ECWxumBMLVQ"
+            },
+            {
+              "vname": "Crunches",
+              "vurl": "https://www.youtube.com/embed/Xyd_fa5zoEU"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Crunches",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Above Knee Block Clean High Pull",
+              "sets": "3",
+              "reps": "2"
+            },
+            {
+              "num": 3,
+              "name": "Above Knee Block Clean",
+              "sets": "3",
+              "reps": "5"
+            },
+            {
+              "num": 4,
+              "name": "Bench Press",
+              "sets": "4",
+              "reps": "4"
+            },
+            {
+              "num": 5,
+              "name": "Seated Barbell Strict Press",
+              "sets": "4",
+              "reps": "6"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "focus": "Rest/Rehab/Stretch",
+          "recommendedV": [
+            {
+              "vname": "Day Off Streching",
+              "vurl": "https://www.youtube.com/embed/03JKamVnbfs"
+            },
+            {
+              "vname": "Flexibility Routine",
+              "vurl": "https://www.youtube.com/embed/L_xrDAtykMI"
+            },
+            {
+              "vname": "Foam Roller",
+              "vurl": "https://www.youtube.com/embed/Dj4dyWDNgb0"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "focus": "Learning Day",
+          "recommendedV": [
+            {
+              "vname": "Your Body During Workout",
+              "vurl": "https://www.youtube.com/embed/wWGulLAa0O0"
+            },
+            {
+              "vname": "How To Create A Caloric Deficit",
+              "vurl": "https://www.youtube.com/embed/3foxTr9Qua0"
+            },
+            {
+              "vname": "Balancing Life and Fitness",
+              "vurl": "https://www.youtube.com/embed/cap_OhkXric"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "focus": "Full-body",
+          "recommendedV": [
+            {
+              "vname": "Incline Dumbbell Chest Press",
+              "vurl": "https://www.youtube.com/embed/hChjZQhX1Ls"
+            },
+            {
+              "vname": "Chin Up",
+              "vurl": "https://www.youtube.com/embed/qVztO-F-IwI"
+            },
+            {
+              "vname": "Rope Face Pull",
+              "vurl": "https://www.youtube.com/embed/eIq5CB9JfKE"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Chin Up",
+              "sets": "3",
+              "reps": "AMAP"
+            },
+            {
+              "num": 3,
+              "name": "Incline Dumbbell Chest Press(2 seconds pause at bottom)",
+              "sets": "4",
+              "reps": "6"
+            },
+            {
+              "num": 4,
+              "name": "Chest Supported T-Bar Row or Dumbbell Row(2 secs hold at top)",
+              "sets": "4",
+              "reps": "6"
+            },
+            {
+              "num": 5,
+              "name": "Rope Face Pull(downward angle)",
+              "sets": "3",
+              "reps": "10"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "focus": "Legs and Shoulders ",
+          "recommendedV": [
+            {
+              "vname": "Back Squat",
+              "vurl": "https://www.youtube.com/embed/RpBf5ZRdvWE"
+            },
+            {
+              "vname": "Overhead Press",
+              "vurl": "https://www.youtube.com/embed/QAQ64hK4Xxs"
+            },
+            {
+              "vname": "Split Squat",
+              "vurl": "https://www.youtube.com/embed/JyMiO1iQzEY"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Jerk",
+              "sets": "6",
+              "reps": "2"
+            },
+            {
+              "num": 3,
+              "name": "Back Squat",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 4,
+              "name": "Overhead Press",
+              "sets": "4",
+              "reps": "5"
+            },
+            {
+              "num": 5,
+              "name": "Split Squat",
+              "sets": "3",
+              "reps": "12"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "focus": "Chest",
+          "recommendedV": [
+            {
+              "vname": "Rings Dip",
+              "vurl": "https://www.youtube.com/embed/Vt0lO4jpIDo"
+            },
+            {
+              "vname": "Rings Push ups",
+              "vurl": "https://www.youtube.com/embed/FRiiZRhapeU"
+            },
+            {
+              "vname": "Rings Dip hold",
+              "vurl": "https://www.youtube.com/embed/jPPM1ri6MqQ"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Rings Dip hold",
+              "sets": "3",
+              "reps": "1 min"
+            },
+            {
+              "num": 3,
+              "name": "Rings Push ups",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 4,
+              "name": "Rings Incline Push ups",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 5,
+              "name": "Rings Dips",
+              "sets": "3",
+              "reps": "AMAP"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "focus": "Back",
+          "recommendedV": [
+            {
+              "vname": "Rings Chin ups",
+              "vurl": "https://www.youtube.com/embed/ytuFFG5zdjw"
+            },
+            {
+              "vname": "Rings Back Fly",
+              "vurl": "https://www.youtube.com/embed/iVDKfv5Tlms"
+            },
+            {
+              "vname": "Rings Inverted Row",
+              "vurl": "https://www.youtube.com/embed/PGcTxvw6-lo"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Rings Inverted Row",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 3,
+              "name": "Rings pull ups",
+              "sets": "3",
+              "reps": "AMAP"
+            },
+            {
+              "num": 4,
+              "name": "Rings Chin ups",
+              "sets": "3",
+              "reps": "AMAP"
+            },
+            {
+              "num": 5,
+              "name": "Rings Back Fly",
+              "sets": "3",
+              "reps": "AMAP"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "focus": "Core",
+          "recommendedV": [
+            {
+              "vname": "Ring Push up hold",
+              "vurl": "https://www.youtube.com/embed/m8GZlHJulc8"
+            },
+            {
+              "vname": "Rings Ab Rollout",
+              "vurl": "https://www.youtube.com/embed/KkXY9jp59ec"
+            },
+            {
+              "vname": "Ring Plank",
+              "vurl": "https://www.youtube.com/embed/p3zS2AMqGlg"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Rings Ab Rollout",
+              "sets": "3",
+              "reps": "10"
+            },
+            {
+              "num": 2,
+              "name": "Rings Superman Thrust",
+              "sets": "3",
+              "reps": "6/side"
+            },
+            {
+              "num": 3,
+              "name": "Rings Single Arm Plank",
+              "sets": "3",
+              "reps": "30secs"
+            },
+            {
+              "num": 4,
+              "name": "Ring Plank",
+              "sets": "3",
+              "reps": "30secs"
+            },
+            {
+              "num": 5,
+              "name": "Ring Push up hold",
+              "sets": "3",
+              "reps": "45secs"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "focus": "Rest/Rehab/Stretch",
+          "recommendedV": [
+            {
+              "vname": "Day Off Streching",
+              "vurl": "https://www.youtube.com/embed/03JKamVnbfs"
+            },
+            {
+              "vname": "Flexibility Routine",
+              "vurl": "https://www.youtube.com/embed/L_xrDAtykMI"
+            },
+            {
+              "vname": "Foam Roller",
+              "vurl": "https://www.youtube.com/embed/Dj4dyWDNgb0"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "focus": "Learning Day",
+          "recommendedV": [
+            {
+              "vname": "Your Body During Workout",
+              "vurl": "https://www.youtube.com/embed/wWGulLAa0O0"
+            },
+            {
+              "vname": "How To Create A Caloric Deficit",
+              "vurl": "https://www.youtube.com/embed/3foxTr9Qua0"
+            },
+            {
+              "vname": "Balancing Life and Fitness",
+              "vurl": "https://www.youtube.com/embed/cap_OhkXric"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Home Workout - Experienced",
+      "day": [
+        {
+          "id": 1,
+          "focus": "Full-body",
+          "recommendedV": [
+            {
+              "vname": "Incline Dumbbell Chest Press",
+              "vurl": "https://www.youtube.com/embed/hChjZQhX1Ls"
+            },
+            {
+              "vname": "Chin Up",
+              "vurl": "https://www.youtube.com/embed/qVztO-F-IwI"
+            },
+            {
+              "vname": "Rope Face Pull",
+              "vurl": "https://www.youtube.com/embed/eIq5CB9JfKE"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Chin Up",
+              "sets": "3",
+              "reps": "AMAP"
+            },
+            {
+              "num": 3,
+              "name": "Incline Dumbbell Chest Press(2 seconds pause at bottom)",
+              "sets": "4",
+              "reps": "6"
+            },
+            {
+              "num": 4,
+              "name": "Chest Supported T-Bar Row or Dumbbell Row(2 secs hold at top)",
+              "sets": "4",
+              "reps": "6"
+            },
+            {
+              "num": 5,
+              "name": "Rope Face Pull(downward angle)",
+              "sets": "3",
+              "reps": "10"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "focus": "Legs and Shoulders ",
+          "recommendedV": [
+            {
+              "vname": "Back Squat",
+              "vurl": "https://www.youtube.com/embed/RpBf5ZRdvWE"
+            },
+            {
+              "vname": "Overhead Press",
+              "vurl": "https://www.youtube.com/embed/QAQ64hK4Xxs"
+            },
+            {
+              "vname": "Split Squat",
+              "vurl": "https://www.youtube.com/embed/JyMiO1iQzEY"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Jerk",
+              "sets": "6",
+              "reps": "2"
+            },
+            {
+              "num": 3,
+              "name": "Back Squat",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 4,
+              "name": "Overhead Press",
+              "sets": "4",
+              "reps": "5"
+            },
+            {
+              "num": 5,
+              "name": "Split Squat",
+              "sets": "3",
+              "reps": "12"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "focus": "Chest",
+          "recommendedV": [
+            {
+              "vname": "Rings Dip",
+              "vurl": "https://www.youtube.com/embed/Vt0lO4jpIDo"
+            },
+            {
+              "vname": "Rings Push ups",
+              "vurl": "https://www.youtube.com/embed/FRiiZRhapeU"
+            },
+            {
+              "vname": "Rings Dip hold",
+              "vurl": "https://www.youtube.com/embed/jPPM1ri6MqQ"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Rings Dip hold",
+              "sets": "3",
+              "reps": "1 min"
+            },
+            {
+              "num": 3,
+              "name": "Rings Push ups",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 4,
+              "name": "Rings Incline Push ups",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 5,
+              "name": "Rings Dips",
+              "sets": "3",
+              "reps": "AMAP"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "focus": "Back",
+          "recommendedV": [
+            {
+              "vname": "Rings Chin ups",
+              "vurl": "https://www.youtube.com/embed/ytuFFG5zdjw"
+            },
+            {
+              "vname": "Rings Back Fly",
+              "vurl": "https://www.youtube.com/embed/iVDKfv5Tlms"
+            },
+            {
+              "vname": "Rings Inverted Row",
+              "vurl": "https://www.youtube.com/embed/PGcTxvw6-lo"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Rings Inverted Row",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 3,
+              "name": "Rings pull ups",
+              "sets": "3",
+              "reps": "AMAP"
+            },
+            {
+              "num": 4,
+              "name": "Rings Chin ups",
+              "sets": "3",
+              "reps": "AMAP"
+            },
+            {
+              "num": 5,
+              "name": "Rings Back Fly",
+              "sets": "3",
+              "reps": "AMAP"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "focus": "Core",
+          "recommendedV": [
+            {
+              "vname": "Ring Push up hold",
+              "vurl": "https://www.youtube.com/embed/m8GZlHJulc8"
+            },
+            {
+              "vname": "Rings Ab Rollout",
+              "vurl": "https://www.youtube.com/embed/KkXY9jp59ec"
+            },
+            {
+              "vname": "Ring Plank",
+              "vurl": "https://www.youtube.com/embed/p3zS2AMqGlg"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Rings Ab Rollout",
+              "sets": "3",
+              "reps": "10"
+            },
+            {
+              "num": 2,
+              "name": "Rings Superman Thrust",
+              "sets": "3",
+              "reps": "6/side"
+            },
+            {
+              "num": 3,
+              "name": "Rings Single Arm Plank",
+              "sets": "3",
+              "reps": "30secs"
+            },
+            {
+              "num": 4,
+              "name": "Ring Plank",
+              "sets": "3",
+              "reps": "30secs"
+            },
+            {
+              "num": 5,
+              "name": "Ring Push up hold",
+              "sets": "3",
+              "reps": "45secs"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "focus": "Rest/Rehab/Stretch",
+          "recommendedV": [
+            {
+              "vname": "Day Off Streching",
+              "vurl": "https://www.youtube.com/embed/03JKamVnbfs"
+            },
+            {
+              "vname": "Flexibility Routine",
+              "vurl": "https://www.youtube.com/embed/L_xrDAtykMI"
+            },
+            {
+              "vname": "Foam Roller",
+              "vurl": "https://www.youtube.com/embed/Dj4dyWDNgb0"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "focus": "Learning Day",
+          "recommendedV": [
+            {
+              "vname": "Your Body During Workout",
+              "vurl": "https://www.youtube.com/embed/wWGulLAa0O0"
+            },
+            {
+              "vname": "How To Create A Caloric Deficit",
+              "vurl": "https://www.youtube.com/embed/3foxTr9Qua0"
+            },
+            {
+              "vname": "Balancing Life and Fitness",
+              "vurl": "https://www.youtube.com/embed/cap_OhkXric"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "focus": "Full-body",
+          "recommendedV": [
+            {
+              "vname": "Bench Press",
+              "vurl": "https://www.youtube.com/embed/vcBig73ojpE"
+            },
+            {
+              "vname": "Seated Barbell Strict Press",
+              "vurl": "https://www.youtube.com/embed/ECWxumBMLVQ"
+            },
+            {
+              "vname": "Crunches",
+              "vurl": "https://www.youtube.com/embed/Xyd_fa5zoEU"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Crunches",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Above Knee Block Clean High Pull",
+              "sets": "3",
+              "reps": "2"
+            },
+            {
+              "num": 3,
+              "name": "Above Knee Block Clean",
+              "sets": "3",
+              "reps": "5"
+            },
+            {
+              "num": 4,
+              "name": "Bench Press",
+              "sets": "4",
+              "reps": "4"
+            },
+            {
+              "num": 5,
+              "name": "Seated Barbell Strict Press",
+              "sets": "4",
+              "reps": "6"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "focus": "Rest/Rehab/Stretch",
+          "recommendedV": [
+            {
+              "vname": "Day Off Streching",
+              "vurl": "https://www.youtube.com/embed/03JKamVnbfs"
+            },
+            {
+              "vname": "Flexibility Routine",
+              "vurl": "https://www.youtube.com/embed/L_xrDAtykMI"
+            },
+            {
+              "vname": "Foam Roller",
+              "vurl": "https://www.youtube.com/embed/Dj4dyWDNgb0"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "focus": "Learning Day",
+          "recommendedV": [
+            {
+              "vname": "Your Body During Workout",
+              "vurl": "https://www.youtube.com/embed/wWGulLAa0O0"
+            },
+            {
+              "vname": "How To Create A Caloric Deficit",
+              "vurl": "https://www.youtube.com/embed/3foxTr9Qua0"
+            },
+            {
+              "vname": "Balancing Life and Fitness",
+              "vurl": "https://www.youtube.com/embed/cap_OhkXric"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "focus": "Full-body",
+          "recommendedV": [
+            {
+              "vname": "Incline Dumbbell Chest Press",
+              "vurl": "https://www.youtube.com/embed/hChjZQhX1Ls"
+            },
+            {
+              "vname": "Chin Up",
+              "vurl": "https://www.youtube.com/embed/qVztO-F-IwI"
+            },
+            {
+              "vname": "Rope Face Pull",
+              "vurl": "https://www.youtube.com/embed/eIq5CB9JfKE"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Chin Up",
+              "sets": "3",
+              "reps": "AMAP"
+            },
+            {
+              "num": 3,
+              "name": "Incline Dumbbell Chest Press(2 seconds pause at bottom)",
+              "sets": "4",
+              "reps": "6"
+            },
+            {
+              "num": 4,
+              "name": "Chest Supported T-Bar Row or Dumbbell Row(2 secs hold at top)",
+              "sets": "4",
+              "reps": "6"
+            },
+            {
+              "num": 5,
+              "name": "Rope Face Pull(downward angle)",
+              "sets": "3",
+              "reps": "10"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "focus": "Legs and Shoulders ",
+          "recommendedV": [
+            {
+              "vname": "Back Squat",
+              "vurl": "https://www.youtube.com/embed/RpBf5ZRdvWE"
+            },
+            {
+              "vname": "Overhead Press",
+              "vurl": "https://www.youtube.com/embed/QAQ64hK4Xxs"
+            },
+            {
+              "vname": "Split Squat",
+              "vurl": "https://www.youtube.com/embed/JyMiO1iQzEY"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Jerk",
+              "sets": "6",
+              "reps": "2"
+            },
+            {
+              "num": 3,
+              "name": "Back Squat",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 4,
+              "name": "Overhead Press",
+              "sets": "4",
+              "reps": "5"
+            },
+            {
+              "num": 5,
+              "name": "Split Squat",
+              "sets": "3",
+              "reps": "12"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "focus": "Chest",
+          "recommendedV": [
+            {
+              "vname": "Rings Dip",
+              "vurl": "https://www.youtube.com/embed/Vt0lO4jpIDo"
+            },
+            {
+              "vname": "Rings Push ups",
+              "vurl": "https://www.youtube.com/embed/FRiiZRhapeU"
+            },
+            {
+              "vname": "Rings Dip hold",
+              "vurl": "https://www.youtube.com/embed/jPPM1ri6MqQ"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Rings Dip hold",
+              "sets": "3",
+              "reps": "1 min"
+            },
+            {
+              "num": 3,
+              "name": "Rings Push ups",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 4,
+              "name": "Rings Incline Push ups",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 5,
+              "name": "Rings Dips",
+              "sets": "3",
+              "reps": "AMAP"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "focus": "Back",
+          "recommendedV": [
+            {
+              "vname": "Rings Chin ups",
+              "vurl": "https://www.youtube.com/embed/ytuFFG5zdjw"
+            },
+            {
+              "vname": "Rings Back Fly",
+              "vurl": "https://www.youtube.com/embed/iVDKfv5Tlms"
+            },
+            {
+              "vname": "Rings Inverted Row",
+              "vurl": "https://www.youtube.com/embed/PGcTxvw6-lo"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Warm Up",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Rings Inverted Row",
+              "sets": "3",
+              "reps": "12"
+            },
+            {
+              "num": 3,
+              "name": "Rings pull ups",
+              "sets": "3",
+              "reps": "AMAP"
+            },
+            {
+              "num": 4,
+              "name": "Rings Chin ups",
+              "sets": "3",
+              "reps": "AMAP"
+            },
+            {
+              "num": 5,
+              "name": "Rings Back Fly",
+              "sets": "3",
+              "reps": "AMAP"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "focus": "Core",
+          "recommendedV": [
+            {
+              "vname": "Ring Push up hold",
+              "vurl": "https://www.youtube.com/embed/m8GZlHJulc8"
+            },
+            {
+              "vname": "Rings Ab Rollout",
+              "vurl": "https://www.youtube.com/embed/KkXY9jp59ec"
+            },
+            {
+              "vname": "Ring Plank",
+              "vurl": "https://www.youtube.com/embed/p3zS2AMqGlg"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Rings Ab Rollout",
+              "sets": "3",
+              "reps": "10"
+            },
+            {
+              "num": 2,
+              "name": "Rings Superman Thrust",
+              "sets": "3",
+              "reps": "6/side"
+            },
+            {
+              "num": 3,
+              "name": "Rings Single Arm Plank",
+              "sets": "3",
+              "reps": "30secs"
+            },
+            {
+              "num": 4,
+              "name": "Ring Plank",
+              "sets": "3",
+              "reps": "30secs"
+            },
+            {
+              "num": 5,
+              "name": "Ring Push up hold",
+              "sets": "3",
+              "reps": "45secs"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "focus": "Rest/Rehab/Stretch",
+          "recommendedV": [
+            {
+              "vname": "Day Off Streching",
+              "vurl": "https://www.youtube.com/embed/03JKamVnbfs"
+            },
+            {
+              "vname": "Flexibility Routine",
+              "vurl": "https://www.youtube.com/embed/L_xrDAtykMI"
+            },
+            {
+              "vname": "Foam Roller",
+              "vurl": "https://www.youtube.com/embed/Dj4dyWDNgb0"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "focus": "Learning Day",
+          "recommendedV": [
+            {
+              "vname": "Your Body During Workout",
+              "vurl": "https://www.youtube.com/embed/wWGulLAa0O0"
+            },
+            {
+              "vname": "How To Create A Caloric Deficit",
+              "vurl": "https://www.youtube.com/embed/3foxTr9Qua0"
+            },
+            {
+              "vname": "Balancing Life and Fitness",
+              "vurl": "https://www.youtube.com/embed/cap_OhkXric"
+            }
+          ],
+          "workouts": [
+            {
+              "num": 1,
+              "name": "Full Body Stretch",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 2,
+              "name": "Flexibilty Yoga",
+              "sets": "-",
+              "reps": "-"
+            },
+            {
+              "num": 3,
+              "name": "Foam Roller",
+              "sets": "-",
+              "reps": "-"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

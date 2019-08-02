@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+* {
+  box-sizing: border-box; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.profile {
+  padding: 30px 30px 0; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #EDF2F4; }
+
+a {
+  text-decoration: none;
+  color: #F5F7DC; }
+  
+/*h1 {
+	margin: 20px;
+	font-size: 40px;
+}*/
+
+h2 {
+	margin: 10px;
+	font-size: 25px;
+	font-weight: bold;
+}
+  
+input {
+	height: 40px;
+	padding: 5px;
+}
+
+select {
+	height: 40px;
+}
+
+.error {
+	color: red;
+	display: none;
+	margin-left: 10px;
+}
+
+button {
+	background-color: deepskyblue;
+	color: white;
+	height: 40px;
+}
+
+#sideMenu {
+  background-color: #2B2D42;
+  max-width: 20%;
+  min-width: 20%;
+  height: 100vh;
+  display: inline-block;
+  box-shadow: 15px 0px 20px rgba(0, 0, 0, 0.055);
+  position: fixed; }
+  #sideMenu .background-image {
+    background: linear-gradient(#2b2d42, rgba(0, 0, 0, 0.274)), url("https://images.unsplash.com/photo-1564345058111-94ec794f753f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80");
+    background-size: cover;
+    opacity: 0.2;
+    z-index: -2;
+    background-position: center; }
+  #sideMenu .nav-title {
+    font-size: 1.8rem;
+    font-family: 'Josefin Sans', sans-serif; }
+  #sideMenu nav a {
+    display: block;
+    padding: 15px 30px;
+    transition: all 0.3s ease-in-out; }
+    #sideMenu nav a .far {
+      color: #F5F7DC;
+      font-size: 1.4rem;
+      margin-right: 0.8rem;
+      display: inline-block;
+      width: 30px;
+      position: relative;
+      top: 3px; }
+    #sideMenu nav a:hover {
+      background: #383b56;
+      text-decoration: none;
+      color: #F5F7DC; }
+    #sideMenu nav a.active {
+      padding: 15px 30px 15px 25px;
+      background: #383b56;
+      border-left: 5px solid #E65F5C; }
+      #sideMenu nav a.active .far {
+        color: #E65F5C; }
+
+content {
+  max-width: 80%;
+  min-width: 80%;
+  float: right;
+  height: 100vh; }
+  content header {
+    height: 50px;
+    background: #fff;
+    color: #2B2D42;
+    padding-top: 16px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.055); }
+    content header #currentDate {
+      height: 100%;
+      float: left;
+      padding-left: 20px;
+      color: #a7a7a7; }
+    content header .notifications {
+      float: right;
+      padding-right: 20px; }
+    content header .far {
+      padding-right: 5px;
+      color: #E65F5C; }
+  content a {
+    color: #2B2D42; }
+
+@media only screen and (max-width: 850px) {
+  #sideMenu {
+    max-width: 8%;
+    min-width: 8%; }
+    #sideMenu .media-nav {
+      display: none; }
+    #sideMenu .nav-title {
+      display: none; }
+    #sideMenu nav a {
+      padding: 15px 20px; }
+      #sideMenu nav a.active {
+        padding: 15px 30px 15px 12px; }
+  content {
+    max-width: 92%;
+    min-width: 92%; } }
+
+@media only screen and (max-width: 650px) {
+  #sideMenu {
+    max-width: 10%;
+    min-width: 10%; }
+    #sideMenu .media-nav {
+      display: none; }
+    #sideMenu nav a {
+      padding: 15px 20px; }
+      #sideMenu nav a.active {
+        padding: 15px 30px 15px 12px; }
+  .col-md-4,
+  .col-sm-12 {
+    margin-bottom: 10px; }
+  content {
+    max-width: 90%;
+    min-width: 90%; } }
+
+.profile {
+  padding: 30px 30px 0; }
+
+.card,
+.table {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }

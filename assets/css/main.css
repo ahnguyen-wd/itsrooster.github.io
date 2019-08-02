@@ -64,6 +64,9 @@ a {
   text-decoration: none;
   color: #F5F7DC; }
 
+.pointer {
+  cursor: pointer; }
+
 #sideMenu {
   background-color: #2B2D42;
   max-width: 20%;
@@ -79,14 +82,16 @@ a {
     z-index: -2;
     background-position: center; }
   #sideMenu .nav-title {
-    padding: 25px;
     font-size: 1.8rem;
     font-family: 'Josefin Sans', sans-serif; }
+  #sideMenu .nav-header {
+    padding: 25px; }
   #sideMenu nav a {
     display: block;
     padding: 15px 30px;
     transition: all 0.3s ease-in-out; }
-    #sideMenu nav a .far {
+    #sideMenu nav a .far,
+    #sideMenu nav a .fad {
       color: #F5F7DC;
       font-size: 1.4rem;
       margin-right: 0.8rem;
@@ -165,7 +170,37 @@ content {
 
 .profile {
   padding: 30px 30px 0; }
+  .profile #prof-img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover; }
+  .profile .how-to-heading {
+    font-size: 1.3rem; }
+  .profile .dayOn {
+    font-size: 1.3rem; }
+    .profile .dayOn .fa-chevron-left {
+      padding-right: 5px;
+      color: #E65F5C; }
+    .profile .dayOn .fa-chevron-right {
+      padding-left: 5px;
+      color: #B5D99C; }
 
 .card,
 .table {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
+
+.hidden {
+  display: none !important; }
+
+#settings label {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 700;
+  padding-bottom: 5px; }
+
+#workout-table {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
+
+.embed-responsive {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
