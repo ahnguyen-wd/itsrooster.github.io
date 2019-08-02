@@ -60,7 +60,9 @@ $("#nav-log-out").unbind('click').click(function(){
 
 //Setup subscription button
 $("#submitSubscription").click(function(){
-    getUserObj("subscriptionplan", $("#getSubSelect :selected").val());
+    setTimeout(function(){
+        getUserObj("subscriptionplan", $("#getSubSelect :selected").val());
+    },300);
     location.reload();
 });
 
