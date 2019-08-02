@@ -141,6 +141,8 @@ content {
     min-width: 8%; }
     #sideMenu .media-nav {
       display: none; }
+    #sideMenu .nav-header {
+      display: none; }
     #sideMenu .nav-title {
       display: none; }
     #sideMenu nav a {
