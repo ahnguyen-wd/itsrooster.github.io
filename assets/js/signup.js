@@ -22,7 +22,7 @@ $("#createAcc").click(function(){
     && $("#dob").val().length > 0) 
     {
         localStorage.username = $("#username").val();
-        fetch("https://finessedfitness.herokuapp.com/default")
+        fetch("https://finessedfitness.herokuapp.com/users/default")
         .then((response)=> response.json())
         .then((data)=> {
             console.log(data);
@@ -39,7 +39,7 @@ $("#createAcc").click(function(){
             console.log(data);
             POSTacc(data);
         });
-		setTimeout(function(){ window.location.replace("dashboard.html"); }, 1000);
+		//setTimeout(function(){ window.location.replace("dashboard.html"); }, 1000);
     } 
     else {
 		document.getElementById("signError").innerHTML = "Please make sure all info are entered.";
