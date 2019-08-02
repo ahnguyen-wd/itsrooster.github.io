@@ -60,10 +60,7 @@ $("#nav-log-out").unbind('click').click(function(){
 
 //Setup subscription button
 $("#submitSubscription").click(function(){
-    getUserObj("subscriptionplan", $("#getSubSelect :selected").val());
-    setTimeout(function(){
-        location.reload();
-    },1000);
+    getUserObj("subscriptionplan", $("#getSubSelect :selected").val(),true);
 });
 
 /**************************************************
@@ -235,17 +232,17 @@ $("#setting-submit-fq").unbind('click').click(function(){
 **************************************************/
 
 //Function to create userobj to edit
-let getUserObj = (item, updatedValue) => {
+let getUserObj = (item, updatedValue,reload) => {
     fetch("https://finessedfitness.herokuapp.com/users/" + username)
     .then((response)=> response.json())
     .then((data)=>
     {
-        updateUser(data,item,updatedValue);
+        updateUser(data,item,updatedValue,reload);
     });
 }
 
 //Function to update user with helper function getUserObj
-let updateUser = (userObj,item,updateditem) => {
+let updateUser = (userObj,item,updateditem,reload) => {
     let username = userObj.id;
     userObj[item] = updateditem;
 
@@ -255,7 +252,12 @@ let updateUser = (userObj,item,updateditem) => {
     body: JSON.stringify(userObj)
     })
     .then((response) => response.json())
-    .then((data)=>console.log(data));
+    .then((data)=>{
+        console.log(data)
+        if(reload) {
+            location.reload();
+        }
+    })
 }
 
 /**************************************************
