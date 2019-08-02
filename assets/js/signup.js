@@ -48,7 +48,7 @@ $("#createAcc").click(function(){
 
 let POSTacc = (userObj) => {
     console.log(userObj);
-    fetch("https://finessedfitness.herokuapp.com/users/",{
+    fetch("https://finessedfitness.herokuapp.com/users",{
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify(userObj)
