@@ -14,7 +14,7 @@ $("#createAcc").click(function(){
     && $("#password").val().length > 0 
     && $("#repassword").val().length > 0 
     && $("#fname").val().length > 0 
-    && $("lname").val().length > 0 
+    && $("#lname").val().length > 0 
     && $("#country").val().length > 0 
     && $("#age").val().length > 0 
     && $("#weight").val().length > 0 
