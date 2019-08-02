@@ -21,7 +21,7 @@ $("#createAcc").click(function(){
     && $("#imglink").val().length > 0 
     && $("#dob").val().length > 0) {
         localStorage.username = $("#username").val();
-        fetch("http://localhost:3000/users/default")
+        fetch("https://finessedfitness.herokuapp.com/default")
         .then((response)=> response.json())
         .then((data)=> {
             console.log(data);
@@ -36,7 +36,6 @@ $("#createAcc").click(function(){
             data.country = $("#country").val();
             data.userimage = $("#imglink").val();
             console.log(data);
-            
             POSTacc(data);
         });
 		setTimeout(function(){ window.location.replace("dashboard.html"); }, 1000);
