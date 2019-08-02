@@ -9,19 +9,9 @@ $("#nextSec").click(function() {
 $("#createAcc").click(function(){
     console.log("This worked");
 
-    if($("#username").val().length > 0 
-    && $("#email").val().length > 0 
-    && $("#password").val().length > 0 
-    && $("#repassword").val().length > 0 
-    && $("#fname").val().length > 0 
-    && $("lname").val().length > 0 
-    && $("#country").val().length > 0 
-    && $("#age").val().length > 0 
-    && $("#weight").val().length > 0 
-    && $("#imglink").val().length > 0 
-    && $("#dob").val().length > 0) {
+    if($("#username").val().length > 0) {
         localStorage.username = $("#username").val();
-        fetch("http://localhost:3000/users/default")
+        fetch("https://finessedfitness.herokuapp.com/users/default")
         .then((response)=> response.json())
         .then((data)=> {
             console.log(data);
@@ -39,16 +29,13 @@ $("#createAcc").click(function(){
             
             POSTacc(data);
         });
-		setTimeout(function(){ window.location.replace("dashboard.html"); }, 1000);
-    } else {
-		document.getElementById("signError").innerHTML = "Please make sure all info are entered.";
-	}
-    
+    }
+    setTimeout(function(){ window.location.replace("dashboard.html"); }, 1000);
 });
 
 let POSTacc = (userObj) => {
     console.log(userObj);
-    fetch("http://localhost:3000/users/",{
+    fetch("https://finessedfitness.herokuapp.com/users/",{
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify(userObj)
