@@ -11,7 +11,7 @@ $("#createAcc").click(function(){
 
     if($("#username").val().length > 0) {
         localStorage.username = $("#username").val();
-        fetch("http://localhost:3000/users/default")
+        fetch("https://finessedfitness.herokuapp.com/users/default")
         .then((response)=> response.json())
         .then((data)=> {
             console.log(data);
@@ -35,7 +35,7 @@ $("#createAcc").click(function(){
 
 let POSTacc = (userObj) => {
     console.log(userObj);
-    fetch("http://localhost:3000/users/",{
+    fetch("https://finessedfitness.herokuapp.com/users/",{
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify(userObj)

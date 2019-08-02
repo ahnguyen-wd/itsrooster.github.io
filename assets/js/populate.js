@@ -234,7 +234,7 @@ $("#setting-submit-fq").unbind('click').click(function(){
 
 //Function to create userobj to edit
 let getUserObj = (item, updatedValue) => {
-    fetch("http://localhost:3000/users/" + username)
+    fetch("https://finessedfitness.herokuapp.com/users/" + username)
     .then((response)=> response.json())
     .then((data)=>
     {
@@ -247,7 +247,7 @@ let updateUser = (userObj,item,updateditem) => {
     let username = userObj.id;
     userObj[item] = updateditem;
 
-    fetch("http://localhost:3000/users/" + username,{
+    fetch("https://finessedfitness.herokuapp.com/users/" + username,{
     method: 'PUT',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify(userObj)
@@ -264,7 +264,7 @@ let updateUser = (userObj,item,updateditem) => {
 
 //Populates the dashboard and settings page
 let getUser = (username) => {
-    fetch("http://localhost:3000/users/" + username)
+    fetch("https://finessedfitness.herokuapp.com/users/" + username)
     .then((response)=> response.json())
     .then((data)=>
     {
@@ -375,7 +375,7 @@ let generateTable = (day, planID) => {
         day = 1;
     }
 
-    fetch("http://localhost:3000/workoutplans/" + planID)
+    fetch("https://finessedfitness.herokuapp.com/workoutplans/" + planID)
     .then((response)=> response.json())
     .then((data)=>
     {

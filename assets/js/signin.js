@@ -2,7 +2,7 @@
 $("#loginBtn").click(function(){ 
     localStorage.username = $("#username").val();
     let username = $("#username").val();
-    fetch("http://localhost:3000/users/")
+    fetch("https://finessedfitness.herokuapp.com/users/")
     .then((response)=> response.json())
     .then((data)=>
     {   
